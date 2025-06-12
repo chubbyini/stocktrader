@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import { AuthContextProvider } from "./context/AuthContext";
-import Navbar from "./components/Navbar";
 import AllRoutes from "./routes/AllRoutes";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
